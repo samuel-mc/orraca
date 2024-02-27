@@ -1,5 +1,6 @@
 :root {
     --white-color: #F9F9FF;
+    --white-light: #AAAAAA;
     --black-color: #0C0C0C;
     --black-bg: #1B1B1B;
     --orange: #F05023;
@@ -62,12 +63,20 @@
     color: white;
 }
 
+.text--white-light {
+    color: var(--white-light);
+}
+
 .text--grey {
     color: var(--grey);
 }
 
 .text--dark-blue {
     color: var(--dark-blue);
+}
+
+.text--end {
+    text-align: end;
 }
 
 .a--white {
@@ -131,7 +140,7 @@
 }
 
 .btn {
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 2% 5%;
     transition: all 0.5s ease-in-out;
     text-decoration: none;
@@ -204,6 +213,10 @@
     display: grid;
 }
 
+.gap--0 {
+    gap: 0 !important;
+}
+
 .gap--24 {
     gap: 24px !important;
 }
@@ -232,6 +245,17 @@
 
 .mw-400 {
     max-width: 400px;
+    margin: 0 auto;
+}
+
+.mw--480 {
+    width: 80%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.mw--640 {
+    max-width: 640px;
     margin: 0 auto;
 }
 

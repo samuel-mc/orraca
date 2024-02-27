@@ -8,7 +8,7 @@ html {
 }
 
 #mobileMenu,
-#mobileMenu *{
+#mobileMenu * {
     animation: none;
 }
 
@@ -17,12 +17,12 @@ html {
     transition: transform 0.3s ease-in-out;
 }
 
-#mobileMenu > * {
+#mobileMenu>* {
     transform: scale(1);
     transition: transform 0.6s ease-in-out;
 }
 
-#mobileMenu.notShowed > *{
+#mobileMenu.notShowed>* {
     transform: scale(0.5);
     transition: transform 0.6s ease-in-out;
 }
@@ -31,6 +31,24 @@ html {
 #mobileMenu.notShowed {
     transform: translateX(100%);
     transition: transform 0.6s ease-in-out;
+}
+
+#headerDesktop {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #BEBEBE;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#home {
+    background-color: #1B1B1B;
+    background-image: url('../img/home/bgCurves.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .home__hero {
@@ -51,13 +69,68 @@ html {
     font-size: var(--text-xl) !important;
 }
 
-#carouselHero .splide__pagination  {
+.home__hero--text img {
+    width: 100%;
+}
+
+#carouselHero .splide__pagination {
     display: none;
 }
 
 .home__hero--text h2 {
     font-size: var(--text-md) !important;
 }
+
+#cuchilloNosotros {
+    display: none;
+    width: 100%;
+    max-width: 48px;
+    margin: 0 auto;
+}
+
+#cuchilloNosotros90 {
+    display: block;
+    width: 80%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+#sectionQuote {
+    background-image: url('../img/home/bgQuote.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.restaurantes__item {
+    position: relative;
+}
+
+.restaurantes__back {
+    filter: grayscale(0);
+    transition: filter 0.6s ease-in-out;
+}
+
+.restaurantes__item:hover .restaurantes__back {
+    filter: grayscale(0.95);
+    transition: filter 0.3s ease-in-out;
+}
+
+.restaurantes__logo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.restaurantes__item:hover .restaurantes__logo {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
 
 @media (min-width: 520px) {
     .home__hero--text h2 {
@@ -69,6 +142,19 @@ html {
     .home__hero--text h2 {
         font-size: var(--text-2xl) !important;
     }
+
+    .home__hero--text img {
+        width: 60%;
+    }
+
+    #cuchilloNosotros {
+        display: block;
+    }
+
+    #cuchilloNosotros90 {
+        display: none;
+    }
+    
 }
 
 @keyframes appear {
@@ -76,6 +162,7 @@ html {
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);

@@ -1,7 +1,7 @@
 <?php $title = isset($title) ? $title : 'Tanko';
 ?>
 
-<header class="bg-dark py-3 d-none d-lg-block">
+<header class="py-3 d-none d-lg-block" id="headerDesktop">
     <div class="mw--1440 d-flex justify-content-between align-items-center">
         <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="icono" class="w--128">
         <nav>
@@ -14,13 +14,13 @@
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--white py-3 px-5 w--fit h--fit">
+        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--white py-2 px-5 w--fit h--fit">
             Contacto
         </a>
     </div>
 </header>
 
-<header class="bg-dark p-2 d-lg-none w-100">
+<header class="bg--blackBg p-2 d-lg-none w-100">
     <div class="d-flex justify-content-between w-100">
         <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w--128">
         <button class="btn a--white btn--square px-3 text-white" onclick="toggleShowMenu()">
@@ -28,7 +28,7 @@
         </button>
     </div>
 </header>
-<nav class="h--screen notShowed position-fixed bg-dark w-100 py-4" id="mobileMenu" style="top: 0; z-index: 2;">
+<nav class="h--screen notShowed position-fixed bg--blackBg w-100 py-4" id="mobileMenu" style="top: 0; z-index: 2;">
     <div class="d-flex flex-column justify-content-between px-4 py-2 h-100">
         <div class="d-flex justify-content-between p-2">
             <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w--128">

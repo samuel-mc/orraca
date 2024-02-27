@@ -1,5 +1,5 @@
 <footer class="bg--blackBg p-4 py-8">
-    <div class="grid--3cols py-3">
+    <div class="grid--3cols py-3 py-md-5">
         <div>
             <ul class="list--unstyled">
                 <li class="my-3">
