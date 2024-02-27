@@ -29,6 +29,7 @@
     <section class="container-fluid p-2 py-4 row text-white">
         <div class="d-flex flex-column justify-content-between align-items-end p-3 col-md-5">
             <h3 class="cormorant-upright-medium text--2xl text--end">Acerca de nosotros</h3>
+            <img src="<?php echo __ROOT__; ?>/public/img/home/figuraNaranja.png">
             <p class="text--white-light text--sm text--end">
                 Con más de 30 años en la industria restaurantera, nos enorgullecemos de ser una potencia culinaria que combina innovación, tradición, experiencia y sabor.
             </p>
@@ -42,6 +43,7 @@
         </div>
         <div class="d-flex flex-column justify-content-between p-3 col-md-5">
             <h3 class="cormorant-upright-medium text--2xl">Nuestros restaurantes</h3>
+            <img src="<?php echo __ROOT__; ?>/public/img/home/figuraNaranja.png" style="transform: rotate(180deg); width: 40px;">
             <p class="text--white-light text--sm">
                 Cada uno de los restaurantes en Orraca Restauranteros, cuenta con su propia esencia que los hace únicos a los ojos de quienes los conocen; pero existe un sentimiento que hace que todos nuestros restaurantes sean como uno solo, ese sentimiento se llama PASIÓN. </p>
             <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--white py-2 px-5 w--fit h--fit">

@@ -85,7 +85,7 @@
 }
 
 .a--white:hover {
-    color: var(--light-blue);
+    color: var(--orange);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }

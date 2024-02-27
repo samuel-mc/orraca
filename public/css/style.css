@@ -33,7 +33,7 @@ html {
     transition: transform 0.6s ease-in-out;
 }
 
-#headerDesktop {
+.header__desk--absolute {
     background-color: rgba(0, 0, 0, 0.2);
     border-bottom: 2px solid #BEBEBE;
     position: absolute;
@@ -41,6 +41,11 @@ html {
     left: 0;
     width: 100%;
     z-index: 2;
+}
+
+.header__desk {
+    position: static;
+    background-color: var(--black-bg);
 }
 
 #home {
@@ -131,10 +136,80 @@ html {
     transition: opacity 0.3s ease-in-out;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 12px;
+}
+
+.hero--nuestrosRestaurantes {
+    background-image: url('../img/nuestrosRestaurantes/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nrestaurantes__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nrestaurantes__itm {
+    padding: 24px 32px;
+}
+
+.nrestaurantes__itm>div {
+    border: 1px solid var(--orange);
+    padding: 48px;
+}
+
+.nrestaurantes__grid .nrestaurantes__itm {
+    position: relative;
+    border-bottom: 1px solid var(--orange);
+}
+
+.nrestaurantes__grid .nrestaurantes__itm:last-child {
+    border-bottom: none;
+}
 
 @media (min-width: 520px) {
     .home__hero--text h2 {
         font-size: var(--text-xl) !important;
+    }
+}
+
+@media (max-width: 766px) {
+    .nrestaurantes__grid .nrestaurantes__itm::before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        right: -5px;
+        width: 8px;
+        height: 8px;
+        background-color: var(--orange);
+        border-radius: 50%;
+    }
+    
+    .nrestaurantes__grid .nrestaurantes__itm::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: -5px;
+        width: 8px;
+        height: 8px;
+        background-color: var(--orange);
+        border-radius: 50%;
+    }
+    
+    .nrestaurantes__grid .nrestaurantes__itm:last-child::before {
+        display: none;
+    }
+    
+    .nrestaurantes__grid .nrestaurantes__itm:last-child::after {
+        display: none;
     }
 }
 
@@ -154,7 +229,86 @@ html {
     #cuchilloNosotros90 {
         display: none;
     }
-    
+
+    .hero {
+        padding: 148px 64px;
+    }
+
+    .nrestaurantes__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nrestaurantes__grid .nrestaurantes__itm {
+        border-bottom: none;
+    }
+
+    .itm--1 {
+        border-right: 1px solid var(--orange);
+        border-bottom: 1px solid var(--orange);
+        position: relative;
+    }
+
+    .itm--1::before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        right: -5px;
+        width: 8px;
+        height: 8px;
+        background-color: var(--orange);
+        border-radius: 50%;
+    }
+
+    .itm--1::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: -5px;
+        width: 8px;
+        height: 8px;
+        background-color: var(--orange);
+        border-radius: 50%;
+    }
+
+    .itm--2 {
+        border-left: 1px solid var(--orange);
+        border-bottom: 1px solid var(--orange);
+    }
+
+    .itm--3 {
+        border-right: 1px solid var(--orange);
+        border-top: 1px solid var(--orange);
+    }
+
+    .itm--4 {
+        position: relative;
+        border-left: 1px solid var(--orange);
+        border-top: 1px solid var(--orange);
+    }
+
+    .itm--4::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        width: 8px;
+        height: 8px;
+        background-color: var(--orange);
+        border-radius: 50%;
+    }
+
+    .itm--4::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: -5px;
+        width: 8px;
+        height: 8px;
+        background-color: var(--orange);
+        border-radius: 50%;
+    }
+
+
 }
 
 @keyframes appear {

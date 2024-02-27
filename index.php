@@ -9,7 +9,11 @@ define('__ROOT__', "http://localhost/orraca");
 
 
 Flight::route('/', function () {
-    Flight::render('index.php', array('title' => 'Inicio'));
+    Flight::render('index.php', array('title' => 'Inicio', 'isNavAbsolute' => true));
+});
+
+Flight::route('/nuestros-restaurantes', function () {
+    Flight::render('nuestrosRestaurantes.php', array('title' => 'Nuestros restaurantes'));
 });
 
 #404
