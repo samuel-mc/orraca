@@ -175,6 +175,28 @@ html {
     border-bottom: none;
 }
 
+.hero--uneteEquipo {
+    background-image: url('../img/uneteEquipo/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero--contacto {
+    background-image: url('../img/contacto/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero--acerca {
+    background-image: url('../img/acerca/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
 @media (min-width: 520px) {
     .home__hero--text h2 {
         font-size: var(--text-xl) !important;
