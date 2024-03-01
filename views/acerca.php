@@ -8,8 +8,8 @@
         </div>
         <h3 class="text--md cormorant-upright-medium" >Home > Acerca De Nosotros</h3>
     </section>
-    <section class="container-fluid p-xl-4 p-0 cormorant-upright-medium text-white">
-        <div>
+    <section class="container p-xl-4 p-0 cormorant-upright-medium text-white">
+        <div id="nuestraHistoria">
             <div class="text-center">
                 <h2 class="text--md m-0">Nuestra Historia</h2>
                 <img src="<?php echo __ROOT__; ?>/public/img/home/figuraNaranja.png" style="transform: rotate(180deg); width: 40px;">
@@ -43,7 +43,8 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section class="container-fluid p-lg-5 p-0 cormorant-upright-medium text-white">
         <div id="carouselAcerca" class="splide" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
                 <ul class="splide__list">
@@ -232,7 +233,8 @@
                 </ul>
             </div>
         </div>
-
+    </section>
+    <section class="container p-xl-4 p-0 cormorant-upright-medium text-white">
         <div>
             <div class="text-center">
                 <h2 class="text--xl mt-0 mt-lg-4">Filosofía</h2>
@@ -284,13 +286,15 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="container-fluid p-xl-4 p-0 cormorant-upright-medium text-white">
         <div>
             <div class="text-center">
                 <h2 class="text--xl mt-0 mt-lg-4">Nuestros valores</h2>
             </div>
             <div class="grid--2cols gap--24 px-4 mt-4 mb-0">
                 <div class="d-flex flex-column m-xl-4 mx-0">
-                    <img src="<?php echo __ROOT__; ?>/public/img/acerca/mision.png" class="img-fluid">
+                    <img src="<?php echo __ROOT__; ?>/public/img/acerca/valores.png" class="img-fluid">
                 </div>
                 <div class="px-xl-4 px-0 grid--3cols text--md">
                     <div>

@@ -6,13 +6,13 @@
                     <h3 class="text-white text--md">Orraca Restauranteros</h3>
                 </li>
                 <li class="my-2">
-                    <a class="a--footer" href="<?php echo __ROOT__; ?>/nosotros">Nosotros</a>
+                    <a class="a--footer" href="<?php echo __ROOT__; ?>/acerca">Nosotros</a>
                 </li>
                 <li class="my-2">
-                    <a class="a--footer" href="<?php echo __ROOT__; ?>/nuestros">Nuestros restauranteros</a>
+                    <a class="a--footer" href="<?php echo __ROOT__; ?>/nuestros-restaurantes">Nuestros restaurantes</a>
                 </li>
                 <li class="my-2">
-                    <a class="a--footer" href="<?php echo __ROOT__; ?>multimedia">Nuestra historia</a>
+                    <a class="a--footer" href="<?php echo __ROOT__; ?>/acerca#nuestraHistoria">Nuestra historia</a>
                 </li>
             </ul>
         </div>

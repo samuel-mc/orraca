@@ -16,6 +16,7 @@ $title = isset($title) ? $title : 'Orraca';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo __ROOT__; ?>/public/js/splide/dist/css/splide.min.css">
+    <link rel="icon" type="image/png" href="<?php echo __ROOT__; ?>/public/img/logoSm.png">
     <title><?php echo $title ?></title>
 </head>
 

@@ -5,9 +5,12 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-#define('__ROOT__', "http://localhost/orraca");
-define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/orraca");
+define('__ROOT__', "http://localhost/orraca");
+// define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/orraca");
 
+Flight::route('/home', function () {
+    Flight::redirect('/');
+});
 
 Flight::route('/', function () {
     Flight::render('index.php', array('title' => 'Inicio', 'isNavAbsolute' => true));
@@ -18,7 +21,7 @@ Flight::route('/nuestros-restaurantes', function () {
 });
 
 Flight::route('/unete', function () {
-    Flight::render('uneteEquipo.php', array('title' => 'Unete a nuestro equipo'));
+    Flight::render('uneteEquipo.php', array('title' => 'Únete al equipo'));
 });
 
 Flight::route('/acerca', function () {
@@ -27,6 +30,10 @@ Flight::route('/acerca', function () {
 
 Flight::route('/contacto', function () {
     Flight::render('contacto.php', array('title' => 'Contacto'));
+});
+
+Flight::route('/gracias', function () {
+    Flight::render('gracias.php', array('title' => 'Gracias'));
 });
 
 #404

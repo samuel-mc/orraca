@@ -22,6 +22,7 @@
     --text-xl: 40px;
     --text-2xl: 64px;
     --text-3xl: 96px;
+    --text-180: 180px;
 
 }
 
@@ -55,6 +56,14 @@
     font-size: var(--text-2xl);
 }
 
+.text--3xl {
+    font-size: var(--text-3xl);
+}
+
+.text--180 {
+    font-size: var(--text-180);
+}
+
 .text--bold {
     font-weight: bold;
 }
@@ -73,6 +82,10 @@
 
 .text--dark-blue {
     color: var(--dark-blue);
+}
+
+.text--orange {
+    color: var(--orange);
 }
 
 .text--end {
@@ -398,5 +411,9 @@
     }
     .grid--5cols {
         grid-template-columns: 1fr;
+    }
+
+    .text--180 {
+        font-size: var(--text-2xl);
     }
 }
