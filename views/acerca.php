@@ -98,14 +98,14 @@
                             <div>
                                 <h2 class="text--lg">1994</h2>
                                 <img src="<?php echo __ROOT__; ?>/public/img/home/figuraNaranja.png" style="transform: rotate(180deg); width: 40px;">
-                                <h1 class="text--2xl"> </h1>
+                                <h1 class="text--2xl">Nace <br> “Grupo Orraca <br> Restauranteros” </h1>
                             </div>
                             <i class="fa-solid fa-angle-right p-3" id="btnPrev" onclick="splideNext(1)"></i>
                         </div>
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/5.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3 p-2" id="btnPrev" onclick="splideNext(0)"></i>
@@ -119,7 +119,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/6.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -133,7 +133,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/7.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -147,7 +147,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/8.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -161,7 +161,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/9.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -175,7 +175,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/10.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -189,7 +189,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/11.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -203,7 +203,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/12.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
@@ -217,7 +217,7 @@
                     </li>
                     <li class="splide__slide mx-0 grid--2cols gap--24">
                         <div class="d-flex flex-column justify-content-center p-0 p-xl-5">
-                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/4.png" class="img-fluid">
+                            <img src="<?php echo __ROOT__; ?>/public/img/acerca/slider/13.png" class="img-fluid">
                         </div>
                         <div class="d-flex flex-row justify-content-between align-items-center px-5">
                             <i class="fa-solid fa-angle-left p-3" id="btnPrev" onclick="splideNext(0)"></i>
